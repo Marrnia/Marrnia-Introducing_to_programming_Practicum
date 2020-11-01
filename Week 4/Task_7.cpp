@@ -9,6 +9,7 @@ int main() {
 	else if (num == 0) std::cout << fib[0];
 	else if (num == 1) std::cout << fib[1];
 	else {
+		std::cout << fib[0] << " ";
 		while (count <= num) {
 			unsigned long long int temp = fib[0] + fib[1];
 			std::cout << temp << " ";
