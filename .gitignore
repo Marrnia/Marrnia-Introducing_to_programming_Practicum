@@ -146,3 +146,5 @@
 *.zpaq
 # Archiver with a compression algorithm based on the Burrows-Wheeler transform method.
 *.zz
+
+*.gch
